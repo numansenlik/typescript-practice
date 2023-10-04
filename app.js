@@ -28,12 +28,12 @@ console.log(reversedText('merhaba'));
 // };
 // showProduct();
 //! Baştan değişkene değer tanımlamak direkt değişkene değer tanımlamakla aynı
-// let sayi = 0;
-// // sayi  ='tayfun'
-// function setCounter(max: 100) {
-//   return max
-// }
-// setCounter(10)
+var sayi = 0;
+// sayi  ='tayfun'
+function setCounter(max) {
+    return max;
+}
+setCounter(10);
 // TypeScript tip Çıkarımı Değikenlerin konumunu kullanarak değişken tiplerini otamatik olarak algılar
 // document.addEventListener('click'function (event) {
 //   console.log(event.button);
