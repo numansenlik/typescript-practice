@@ -34,7 +34,11 @@ console.log(reversedText('merhaba'));
 //   return max
 // }
 // setCounter(10)
-// TypeScript Değikenlerin konumunu kullanarak değişken tiplerini otamatik olarak algılar
+// TypeScript tip Çıkarımı Değikenlerin konumunu kullanarak değişken tiplerini otamatik olarak algılar
 // document.addEventListener('click'function (event) {
 //   console.log(event.button);
 // })
+// Özet
+// Tip Çıkarımları, bir değişken tanımladığınızda, parametreye vasayılan değer belirlediğinizde, fonsiyonda geriye bir değer dönerken uygulanır.
+// TypeScript, en uygun tipi bulmak için en yaygın tip algoritmasını kullanarak çıkarım yapar.
+// Ayrıca bağlamsal yazma ile değişkenlerin konumlarını kullanarak çıkarım yapar.
